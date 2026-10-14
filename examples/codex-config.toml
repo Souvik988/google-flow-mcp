@@ -1,0 +1,9 @@
+# ~/.codex/config.toml — add this block, then restart Codex.
+# Windows path: single-quoted TOML strings need no backslash escaping.
+[mcp_servers.google-flow]
+command = "node"
+args = ['C:\path\to\google-flow-mcp\dist\asset-mcp-main.js']
+
+# Optional per-project environment overrides:
+# [mcp_servers.google-flow.env]
+# FLOW_WATERMARK_REMOVAL = "true"
